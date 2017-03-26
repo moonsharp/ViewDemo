@@ -5,5 +5,12 @@
 /.idea/libraries
 .DS_Store
 /build
-/captures
+/capture
+*.gradle
+*.properties
+*.bat
+LICENSE
+/.idea
+/gradle
+gradlew
 
