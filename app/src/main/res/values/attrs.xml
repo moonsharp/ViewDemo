@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="draw_text_view">
+        <attr name="draw_title" format="string"/>
+        <attr name="draw_color" format="color"/>
+        <attr name="draw_size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="draw_line_view">
+        <attr name="volume_pic" format="reference"/>
+    </declare-styleable>
+
+
+</resources>

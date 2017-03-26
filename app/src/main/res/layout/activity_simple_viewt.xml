@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:viewdemo="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccccc"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SimpleViewActivity">
+
+    <kk.qisheng.views.DrawTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        viewdemo:draw_color="#88ff0000"
+        viewdemo:draw_size="24sp"
+        viewdemo:draw_title="2508"></kk.qisheng.views.DrawTextView>
+
+    <kk.qisheng.views.DrawCircleview
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"></kk.qisheng.views.DrawCircleview>
+
+    <kk.qisheng.views.LineProgressBar
+        android:id="@+id/lpb"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:progress="100"
+        android:layout_marginTop="10dp"></kk.qisheng.views.LineProgressBar>
+
+    <kk.qisheng.views.DrawVolumeview
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"></kk.qisheng.views.DrawVolumeview>
+
+    <kk.qisheng.views.DrawLineView
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        viewdemo:volume_pic="@drawable/sound_72px"></kk.qisheng.views.DrawLineView>
+
+</LinearLayout>
