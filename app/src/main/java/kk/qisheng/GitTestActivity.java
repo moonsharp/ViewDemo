@@ -15,7 +15,7 @@ public class GitTestActivity extends AppCompatActivity {
     }
 
     private void test1() {
-        Toast.makeText(GitTestActivity.this, "test1", Toast.LENGTH_SHORT).show();
+        Toast.makeText(GitTestActivity.this, "test2", Toast.LENGTH_SHORT).show();
     }
 
 }
